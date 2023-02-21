@@ -51,6 +51,15 @@ h6 {
 #__next {
 	isolation: isolate;
 }
+
+.black-iphone {
+	background-image: url("/black-iphone.png");
+	background-repeat: no-repeat;
+	background-size: 260px;
+	height: 600px;
+	padding-bottom: 75px;
+	transform: translateY(-150px);
+}
 /* Setting up basic style guide */
 /* 
 :root {
