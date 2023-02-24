@@ -22,9 +22,9 @@ function App() {
 								<h1 className="text-3xl font-bold text-white"> B-Ninja</h1>
 							</div>
 							<div className="flex flex-col items-center gap-12 lg:items-start">
-								<span className="text-2xl text-white">
+								<span className="text-2xl text-white text-center">
 									{" "}
-									Grocery delivery for DOPEs with Beshir{" "}
+									Grocery delivery for DOPEs{" "}
 								</span>
 								<div className="flex flex-col gap-2 sm:flex-row">
 									<img
@@ -102,7 +102,7 @@ function App() {
 
 			<footer>
 				<p className="text-center pb-8 text-xl text-gray-500">
-					© 2022 Ninja, All rights reserved
+					© 2023 B-Ninja, All rights reserved
 					<br />
 					شركة تقنية التقدم لتقنية المعلومات
 					<br />
