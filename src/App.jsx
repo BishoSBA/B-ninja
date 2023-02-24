@@ -8,7 +8,7 @@ function App() {
 	return (
 		<div className="App">
 			<div className=" items-center gap-8">
-				<div className="flex flex-col h-screen rounded-b-3xl background-Image mb-36">
+				<div className="flex flex-col rounded-b-3xl background-Image mb-36">
 					<header className=" bg-black bg-opacity-10 h-34">
 						<div className=" lg:m-auto flex items-center px-4 py-8 gap-4 lg:w-11/12 ">
 							<img className="rounded-lg w-12" src="/icon.png" alt="" srcset="" />
