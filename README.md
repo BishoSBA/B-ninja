@@ -4,13 +4,13 @@ My implementation of Ana Ninja landing page with a lil personal touch
 
 **Link to project:** https://b-ninja.netlify.app/
 
--   <img src="https://github.com/BishoSBA/B-ninja/tree/main/public/thumbnail.png" width="auto">
+![B-Ninja](https://github.com/BishoSBA/B-ninja/blob/main/public/thumbnail.png?raw=true)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, React, Tailwind, Vite
 
--   Used Vite to create the project and used React without needing it in reality.
+-   Used Vite to create the project with React.
 -   Used tailwind for styling and speed up the process
 
 ## Optimizations
