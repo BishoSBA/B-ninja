@@ -52,7 +52,7 @@ function App() {
 				</div>
 				<section className="pb-12 pt-80 sm:pt-64 md:pt-48 lg:flex lg:justify-center">
 					<ul className="flex flex-col px-8 gap-8 lg:flex-row lg:justify-between lg:w-5/6">
-						<li className="flex text-xl gap-4 lg:gap-0 ">
+						<li className="flex text-xl gap-4 ">
 							<div>
 								<span className="fa-stack fa-1x ">
 									<i className=" text-gray-200 fas fa-circle fa-stack-2x"></i>
