@@ -9,20 +9,22 @@ function App() {
 		<div className="App">
 			<div className=" items-center gap-8">
 				<div className="flex flex-col h-screen rounded-b-3xl background-Image mb-36">
-					<header className="flex items-center px-4 py-8 gap-4 bg-black bg-opacity-5 h-34">
-						<img className="rounded-lg w-12" src="/icon.png" alt="" srcset="" />
-						<h2 className="text-xl font-bold text-white"> Ana Ninja</h2>
+					<header className=" bg-black bg-opacity-10 h-34">
+						<div className=" lg:m-auto flex items-center px-4 py-8 gap-4 lg:w-11/12 ">
+							<img className="rounded-lg w-12" src="/icon.png" alt="" srcset="" />
+							<h2 className="text-xl font-bold text-white"> B-Ninja</h2>
+						</div>
 					</header>
-					<section className="flex flex-col lg:flex-row-reverse justify-center align-center">
-						<div className="flex flex-col gap-12 lg:basis-7/12 lg:place-items-start">
+					<section className="flex flex-col lg:flex-row-reverse justify-center align-center lg:gap-8">
+						<div className="flex flex-col gap-12 lg:basis-7/12 lg:justify-center lg:items-start">
 							<div className="flex flex-col items-center md:flex-row justify-center gap-6">
 								<img className="rounded-3xl w-28 mt-3" src="/icon.png" />
-								<h1 className="text-3xl font-bold text-white"> Ana Ninja</h1>
+								<h1 className="text-3xl font-bold text-white"> B-Ninja</h1>
 							</div>
 							<div className="flex flex-col items-center gap-12 lg:items-start">
 								<span className="text-2xl text-white">
 									{" "}
-									Grocery delivery for DOPEs{" "}
+									Grocery delivery for DOPEs with Beshir{" "}
 								</span>
 								<div className="flex flex-col gap-2 sm:flex-row">
 									<img
@@ -38,10 +40,10 @@ function App() {
 								</div>
 							</div>
 						</div>
-						<div className="rounded-md w-64 mx-auto mt-4 flex items-center justify-center black-iphone lg:basis-5/12 lg:scale-150 lg:translate-x-5 lg:translate-y-36">
+						<div className="rounded-md w-64 mx-auto mt-4 flex items-center justify-center black-iphone lg:basis-5/12 lg:w-56 lg:scale-150 lg:translate-x-5 lg:translate-y-44">
 							<img
 								className="rounded-3xl w-56 my-5"
-								src="/PhoneScreen.png"
+								src="/iphone-frame.png"
 								alt=""
 								srcset=""
 							/>
@@ -97,6 +99,7 @@ function App() {
 					</ul>
 				</section>
 			</div>
+
 			<footer>
 				<p className="text-center pb-8 text-xl text-gray-500">
 					© 2022 Ninja, All rights reserved

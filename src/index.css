@@ -64,12 +64,27 @@ arts  */
 	background-image: linear-gradient(rgba(54, 59, 61, 0.8), rgba(54, 59, 61, 0.8)),
 		url("/headerimage.png");
 	background-size: cover;
+	border-radius: 0 0 60px 60px;
+	padding-bottom: -50px;
 }
 
 .black-iphone {
-	background-image: url("/black-iphone.png");
+	background-image: url("/PhoneScreen.png");
 	background-repeat: no-repeat;
-	background-size: 260px;
+	background-size: 200px;
 	background-position: center;
 	overflow: visible;
+}
+
+/* Change scroll bar */
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: black;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(54, 59, 61);
 }
