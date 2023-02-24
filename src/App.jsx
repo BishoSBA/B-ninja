@@ -8,42 +8,49 @@ function App() {
 	return (
 		<div className="App">
 			<div className=" items-center gap-8">
-				<div className="flex flex-col h-screen rounded-b-3xl gap-12 background-Image">
-					<header className="flex items-center px-6 py-8 gap-4 bg-white bg-opacity-10 h-34">
+				<div className="flex flex-col h-screen rounded-b-3xl background-Image mb-36">
+					<header className="flex items-center px-4 py-8 gap-4 bg-black bg-opacity-5 h-34">
 						<img className="rounded-lg w-12" src="/icon.png" alt="" srcset="" />
 						<h2 className="text-xl font-bold text-white"> Ana Ninja</h2>
 					</header>
-
-					<div className="flex flex-col items-center md:flex-row justify-center gap-6">
-						<img className="rounded-3xl w-28 mt-3" src="/icon.png" />
-						<h1 className="text-3xl font-bold text-white"> Ana Ninja</h1>
-					</div>
-					<div className="flex flex-col items-center gap-12">
-						<span className="text-2xl font-bold text-white">
-							{" "}
-							Grocery delivery for DOPEs{" "}
-						</span>
-
-						<div className="flex flex-col gap-2 sm:flex-row">
+					<section className="flex flex-col lg:flex-row-reverse justify-center align-center">
+						<div className="flex flex-col gap-12 lg:basis-7/12 lg:place-items-start">
+							<div className="flex flex-col items-center md:flex-row justify-center gap-6">
+								<img className="rounded-3xl w-28 mt-3" src="/icon.png" />
+								<h1 className="text-3xl font-bold text-white"> Ana Ninja</h1>
+							</div>
+							<div className="flex flex-col items-center gap-12 lg:items-start">
+								<span className="text-2xl text-white">
+									{" "}
+									Grocery delivery for DOPEs{" "}
+								</span>
+								<div className="flex flex-col gap-2 sm:flex-row">
+									<img
+										className="rounded-md w-64 mr-4"
+										src="/playstore.png"
+										alt="playstore"
+									/>
+									<img
+										className="rounded-md w-64 mr-4"
+										src="/appstore.png"
+										alt="playstore"
+									/>
+								</div>
+							</div>
+						</div>
+						<div className="rounded-md w-64 mx-auto mt-4 flex items-center justify-center black-iphone lg:basis-5/12 lg:scale-150 lg:translate-x-5 lg:translate-y-36">
 							<img
-								className="rounded-md w-64 mr-4"
-								src="/playstore.png"
-								alt="playstore"
-							/>
-							<img
-								className="rounded-md w-64 mr-4"
-								src="/appstore.png"
-								alt="playstore"
+								className="rounded-3xl w-56 my-5"
+								src="/PhoneScreen.png"
+								alt=""
+								srcset=""
 							/>
 						</div>
-					</div>
+					</section>
 				</div>
-				<div className="rounded-md w-64 m-auto flex items-center justify-center black-iphone -mt-16 sm:-mt-32">
-					<img className="rounded-3xl w-56" src="/PhoneScreen.png" alt="" srcset="" />
-				</div>
-				<section className="pb-12 lg:pt-12">
-					<ul className="flex flex-col px-10 gap-8 lg:flex-row lg:gap-0 max-w-6xl">
-						<li className="flex text-xl gap-6 lg:gap-0">
+				<section className="pb-12 pt-80 sm:pt-64 md:pt-48 lg:flex lg:justify-center">
+					<ul className="flex flex-col px-8 gap-8 lg:flex-row lg:justify-between lg:w-5/6">
+						<li className="flex text-xl gap-4 lg:gap-0 ">
 							<div>
 								<span className="fa-stack fa-1x ">
 									<i className=" text-gray-200 fas fa-circle fa-stack-2x"></i>
@@ -51,38 +58,38 @@ function App() {
 								</span>
 							</div>
 							<div>
-								<h3 className=" text-2xl font-bold mb-3">Supermarket prices</h3>
-								<p className=" text-2lg">
+								<h3 className=" text-xl font-bold mb-1">Supermarket prices</h3>
+								<p className=" text-lg text-gray-500">
 									Over 2000 items, direct to your door, at normal supermarket
 									prices!
 								</p>
 							</div>
 						</li>
-						<li className="flex text-xl gap-6 ">
+						<li className="flex text-xl gap-4 ">
 							<div>
 								<span className="fa-stack fa-1x ">
 									<i className=" text-gray-200 fas fa-circle fa-stack-2x"></i>
-									<i className=" text-blue-600 fas fa-store fa-stack-1x"></i>
+									<i className=" text-blue-600 fas fa-clock fa-stack-1x"></i>
 								</span>
 							</div>
 							<div>
-								<h3 className=" text-2xl font-bold mb-3">Ultra-fast delivery</h3>
-								<p className=" text-2lg">
+								<h3 className=" text-xl  font-bold mb-1">Ultra-fast delivery</h3>
+								<p className=" text-lg text-gray-500">
 									Our riders bring your groceries, direct to your door, in
 									minutes.
 								</p>
 							</div>
 						</li>
-						<li className="flex text-xl gap-6 ">
+						<li className="flex text-xl gap-4 ">
 							<div>
 								<span className="fa-stack fa-1x ">
 									<i className=" text-gray-200 fas fa-circle fa-stack-2x"></i>
-									<i className=" text-blue-600 fas fa-store fa-stack-1x"></i>
+									<i className=" text-blue-600 fas fa-carrot fa-stack-1x"></i>
 								</span>
 							</div>
 							<div>
-								<h3 className=" text-2xl font-bold mb-3">Fresh & Organic</h3>
-								<p className=" text-2lg">
+								<h3 className=" text-xl font-bold mb-1">Fresh & Organic</h3>
+								<p className=" text-lg text-gray-500">
 									Choose from our large selection of fresh and organic items.
 								</p>
 							</div>

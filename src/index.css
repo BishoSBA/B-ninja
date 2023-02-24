@@ -70,6 +70,6 @@ arts  */
 	background-image: url("/black-iphone.png");
 	background-repeat: no-repeat;
 	background-size: 260px;
-	height: 600px;
-	padding-bottom: 75px;
+	background-position: center;
+	overflow: visible;
 }
